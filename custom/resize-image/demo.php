@@ -12,7 +12,7 @@
     <body>
         <?php 
             // initialise new Image
-            $myImage = new Img('myImage.gif');
+            $myImage = new Img('img/myImage.gif');
         ?>
 
         <h2>Original Image</h2>
