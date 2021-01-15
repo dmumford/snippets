@@ -1,0 +1,79 @@
+html,body { 
+    margin:0;
+    padding:0;
+    max-width:100vw;
+    max-height:100vh;
+    }
+    .letter {
+        width: 100px;
+        height:100px;
+        /*margin-right: 25px;*/
+    }
+    .correct { 
+        background-color: lime!important;
+        color: black!important;
+    }
+    .lose { 
+        background-color: red!important;
+        color: whitesmoke;
+    }
+    .guessed { background-color:grey!important; }
+    #container { width:100vw; height:100vh; }
+    #word2guess,#letters {
+        width:100%;
+        height:auto;
+        text-align:center;
+        border:2px solid grey;
+        padding:0;
+        /*margin-bottom:15px;*/
+    }
+    .alphabet {
+        font-weight:bold;
+        font-size:2em;
+        background-color:blue;
+        color:white;
+        margin-bottom:15px;
+    }
+    .alphabet:hover, #buttons *:hover {
+        opacity:0.6;
+    }
+    .alphabet:active {
+        border:5px solid pink;
+    }
+    .title {
+        text-align:center;
+        font-size:2.1em;
+        margin-top:50px;
+    }
+    #guessed {
+        border: 2px solid blue;
+        font-weight:bold;
+        color:blue;
+        font-size:1.5em;
+        width:100%;
+        min-height:100px;
+    }
+    #buttons {
+        top:0;
+        left:0;
+        position:absolute;
+        min-width:200px;
+        display:inline-flex;
+    }
+    #buttons * {
+        width:100px;
+        height:50px;
+        background-color:blue;
+        color:whitesmoke;
+        font-weight:bold;
+        font-size:1.1em;
+        text-decoration:none;
+        text-align:center;
+    }
+    #word2guess button.letter {
+        font-size: 2em;
+        font-weight:bold;
+    }
+    #stats {
+        width:200px;
+    }
