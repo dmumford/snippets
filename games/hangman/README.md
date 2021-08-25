@@ -1,5 +1,8 @@
 # Hangman - Countries Edition #
 
+# DEMO #
+[Live Hangman Demo](https://learn.memocopier.com/games/hangman/)
+
 # How to Play #
 **Classic Hangman Game**
 
